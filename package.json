@@ -4,7 +4,7 @@
   "description": "SHUVRO AI English Tutor - Personalized AI Spoken English Learning Platform",
   "scripts": {
     "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
-    "dev": "concurrently "cd backend && npm start" "cd frontend && npm run dev"",
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\"",
     "build": "cd frontend && npm run build",
     "start": "cd backend && npm start",
     "postinstall": "cd backend && npm install"
