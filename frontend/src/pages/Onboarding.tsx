@@ -25,7 +25,7 @@ export default function Onboarding() {
   const steps = [
     {
       title: 'What should I call you?',
-      subtitle: 'Let's personalize your experience',
+      subtitle: "Let's personalize your experience",
       icon: Sparkles,
       content: (
         <div>
